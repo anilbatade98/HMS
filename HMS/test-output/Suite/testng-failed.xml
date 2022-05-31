@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="2" name="BasicTest(failed)">
+    <classes>
+      <class name="tests.ValidateAdminDashboard">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="deleteObj"/>
+          <include name="openAdminAccount"/>
+          <include name="createObj"/>
+          <include name="checkBrokenLinks"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- tests.ValidateAdminDashboard -->
+      <class name="tests.TC_Contact_001">
+        <methods>
+          <include name="createObj"/>
+          <include name="deleteObj"/>
+          <include name="alertPresent"/>
+          <include name="checkAlertMsg"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openContactPage"/>
+          <include name="acceptAlert"/>
+        </methods>
+      </class> <!-- tests.TC_Contact_001 -->
+    </classes>
+  </test> <!-- BasicTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

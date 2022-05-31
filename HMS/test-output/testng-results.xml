@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-29T18:10:50 IST" name="Suite" finished-at="2022-05-29T18:11:34 IST" duration-ms="44162">
+    <groups>
+    </groups>
+    <test started-at="2022-05-29T18:10:50 IST" name="BasicTest" finished-at="2022-05-29T18:11:34 IST" duration-ms="44162">
+      <class name="tests.TC_Contact_ErrorMsg">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:tests.TC_Contact_ErrorMsg@1b1426f4]" started-at="2022-05-29T18:10:50 IST" name="openBrowser" finished-at="2022-05-29T18:11:15 IST" duration-ms="25681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="createObj()[pri:0, instance:tests.TC_Contact_ErrorMsg@1b1426f4]" started-at="2022-05-29T18:11:15 IST" name="createObj" finished-at="2022-05-29T18:11:16 IST" duration-ms="623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObj -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:tests.TC_Contact_ErrorMsg@1b1426f4]" started-at="2022-05-29T18:11:16 IST" name="openHomePage" finished-at="2022-05-29T18:11:26 IST" duration-ms="9482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="contactPage()[pri:0, instance:tests.TC_Contact_ErrorMsg@1b1426f4]" started-at="2022-05-29T18:11:26 IST" name="contactPage" finished-at="2022-05-29T18:11:30 IST" duration-ms="4361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactPage -->
+        <test-method is-config="true" signature="scr(org.testng.ITestResult)[pri:0, instance:tests.TC_Contact_ErrorMsg@1b1426f4]" started-at="2022-05-29T18:11:30 IST" name="scr" finished-at="2022-05-29T18:11:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=contactPage status=SUCCESS method=TC_Contact_ErrorMsg.contactPage()[pri:0, instance:tests.TC_Contact_ErrorMsg@1b1426f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scr -->
+        <test-method is-config="true" signature="deleteObj()[pri:0, instance:tests.TC_Contact_ErrorMsg@1b1426f4]" started-at="2022-05-29T18:11:30 IST" name="deleteObj" finished-at="2022-05-29T18:11:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteObj -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC_Contact_ErrorMsg@1b1426f4]" started-at="2022-05-29T18:11:30 IST" name="closeBrowser" finished-at="2022-05-29T18:11:34 IST" duration-ms="3874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TC_Contact_ErrorMsg -->
+    </test> <!-- BasicTest -->
+  </suite> <!-- Suite -->
+</testng-results>

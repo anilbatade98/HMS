@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- launch all chrome browser but run classes serially one class by one class -->
+<suite name="Suite" thread-count="2" >
+  <parameter name = "browser" value = "chrome" />
+  <test thread-count="2" name="BasicTest">
+    <classes>
+    
+      <class name="tests.ValidateAdminDashboard"/>
+      <class name="tests.TC_Contact_ErrorMsg"/>
+      <class name="tests.TC_Contact_001"/>
+      <class name="tests.ValidateAllHomePageLinks"/>
+    </classes>
+  </test> <!-- BasicTest -->
+</suite> <!-- Suite -->
+

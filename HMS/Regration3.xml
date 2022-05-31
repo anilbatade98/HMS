@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regration1" thread-count="1" parallel="tests">
+
+  <test  name="TestOnChromeBrowser">
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+      <class name="tests.ValidateAdminDashboard"/>
+      <class name="tests.ValidateAllHomePageLinks"/>  
+      <class name="tests.TC_Contact_001"/>
+      <class name="tests.TC_Contact_ErrorMsg"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="TestOnFirefoxBrowser">
+  <parameter name = "browser" value = "firefox"/>
+    <classes>
+      <class name="tests.ValidateAdminDashboard"/>
+      <class name="tests.ValidateAllHomePageLinks"/>  
+      <class name="tests.TC_Contact_001"/>
+      <class name="tests.TC_Contact_ErrorMsg"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test  name="TestOnEdgeBrowser">
+  <parameter name = "browser" value = "edge"/>
+    <classes>
+      <class name="tests.ValidateAdminDashboard"/>
+      <class name="tests.ValidateAllHomePageLinks"/>  
+      <class name="tests.TC_Contact_001"/>
+      <class name="tests.TC_Contact_ErrorMsg"/>
+    </classes>
+  </test> <!-- Test -->
+    
+    
+</suite> <!-- Regration1 -->
